@@ -7,9 +7,6 @@ name: Test Build
 on:
 # Allows you to run this workflow manually
   workflow_dispatch:
-    inputs:
-     release:
-       description：将编译出的镜像上到 Release
 
 jobs:
   build:
